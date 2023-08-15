@@ -42,3 +42,19 @@ static int fib(int n) {
     return fib;
 }
 }
+//3rd method
+int j=n-1;
+		if( j == 0 )
+		{
+			return 0;
+		}
+		else if( j == 1 )
+		{ 
+			return 1;
+ 		}
+		else 
+		{
+			return (fib(j-1)+fib(j));
+        }
+}
+}
